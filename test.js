@@ -3,3 +3,5 @@ class Node{
         this.data=
     }
 }
+
+feyhfeh
