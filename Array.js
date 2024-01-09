@@ -8,4 +8,6 @@ for(const item of array){
     console.log(item);
 }
 
+//pulled
+
 // Map , Filter , Reduce , concat ,slice and splice
