@@ -1,6 +1,6 @@
 class Node {
-    constructor(data) {
-        this.data = data;
+    constructor(value) {
+        this.value = value;
         this.next = null;
     }
 }
@@ -10,8 +10,9 @@ class LinkedList {
         this.head = null;
     }
 
-    append(data) {
-        const newNode = new Node(data);
+    append(value) {
+        const newNode = new Node(value);
+
         if (!this.head) {
             this.head = newNode;
         } else {
@@ -23,21 +24,21 @@ class LinkedList {
         }
     }
 
-    display() {
+    print() {
         let current = this.head;
         while (current) {
-            console.log(current.data + " -> ");
+            console.log(current.value);
             current = current.next;
         }
-        console.log("null");
     }
 }
 
 // Example usage:
-const linkedList = new LinkedList();
+const myList = new LinkedList();
+myList.append(1);
+myList.append(2);
+myList.append(3);
+myList.append(4);
 
-linkedList.append(1);
-linkedList.append(2);
-linkedList.append(3);
-
-linkedList.display();
+// Print the linked list
+myList.print();

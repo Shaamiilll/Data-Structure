@@ -8,8 +8,8 @@ function isPowerOftwoBitwise(n){
 }
 
 console.log(isPowerOftwoBitwise(1));
-console.log(isPowerOftwoBitwise(2));
-console.log(isPowerOftwoBitwise(5));
+console.log(isPowerOftwoBitwise(20));
+console.log(isPowerOftwoBitwise(14));
 
 
 

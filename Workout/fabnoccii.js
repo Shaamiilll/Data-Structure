@@ -8,4 +8,4 @@ function fibonacci(n) {
 }
 
 
-console.log(fibonacci(5));
+console.log(fibonacci(90));
