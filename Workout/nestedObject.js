@@ -18,6 +18,8 @@ function sumOfObjValue(obj){
             return total += sumOfObjValue(value);
         }
         return total += value;
+
+        
     }, 0);
 }
 
